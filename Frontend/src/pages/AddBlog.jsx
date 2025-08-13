@@ -129,7 +129,7 @@ const AddBlog = () => {
         <div className="form-group">
           <label>Description</label>
           <Editor
-            apiKey="lvrlrcqjgu0x83amssn032svvfj3cof1640bfseih7p0w7a5"
+            apiKey={import.meta.env.REACT_APP_TINYMCE_API_KEY}
             value={formData.description}
             init={{
               height: 400,
