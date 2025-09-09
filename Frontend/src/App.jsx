@@ -12,7 +12,7 @@ import AddBlog from "./pages/AddBlog";
 import "./App.css";
 import Contact from "./pages/Contact";
 import AddContact from "./pages/AddContact";
-// import Supports from "./pages/Supports";
+import Supports from "./pages/Supports";
 import Banner from "./pages/Banner";
 import InvestorRelations from "./pages/InvestorRelations";
 import Newsletter from "./pages/Newsletter";
@@ -51,7 +51,7 @@ function App() {
           <Route path="/blogs/edit/:id" element={<AddBlog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/contact/add-contact" element={<AddContact />} />
-          {/* <Route path="/support" element={<Supports />} /> */}
+          <Route path="/support" element={<Supports />} />
           <Route path="/banner" element={<Banner />} />
           <Route path="/investors/*" element={<InvestorRelations />} />
           <Route path="/newsletter" element={<Newsletter />} />

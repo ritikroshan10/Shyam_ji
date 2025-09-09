@@ -5,7 +5,7 @@ import './Sidebar.css';
 import { MdDashboard } from 'react-icons/md';
 import { FiBox, FiPhone} from 'react-icons/fi';
 import { FaPenNib, FaUsers } from 'react-icons/fa';
-// import { BiSupport } from 'react-icons/bi';
+import { BiSupport } from 'react-icons/bi';
 import { RiImageEditLine } from 'react-icons/ri';
 import { IoNewspaperOutline } from 'react-icons/io5';
 
@@ -52,12 +52,12 @@ function Sidebar() {
           </span>
         </NavLink>
 
-        {/* <NavLink to="/support" className={({ isActive }) => isActive ? "active" : ""}>
+        <NavLink to="/support" className={({ isActive }) => isActive ? "active" : ""}>
           <span className="menu-item">
             <BiSupport className="icon" />
             Supports
           </span>
-        </NavLink> */}
+        </NavLink>
 
         <NavLink to="/banner" className={({ isActive }) => isActive ? "active" : ""}>
           <span className="menu-item">
